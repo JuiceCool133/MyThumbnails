@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Gorilla Tag Thumbnails</title>
+
+<style>
+
+body{
+    background:#141414;
+    color:white;
+    font-family:Arial;
+    margin:40px;
+}
+
+h1{
+    text-align:center;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(350px,1fr));
+    gap:20px;
+}
+
+.gallery img{
+    width:100%;
+    border-radius:10px;
+    transition:.2s;
+}
+
+.gallery img:hover{
+    transform:scale(1.03);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>My Gorilla Tag Thumbnails</h1>
+
+<div class="gallery">
+
+<img src="images/thumb1.png">
+<img src="images/thumb2.png">
+<img src="images/thumb3.png">
+<img src="images/thumb4.png">
+
+</div>
+
+</body>
+</html>
